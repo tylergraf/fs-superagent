@@ -1,0 +1,35 @@
+{
+  "name": "ng-superagent",
+  "version": "0.0.0",
+  "description": "Anguar $superagent",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dncrews/ng-superagent.git"
+  },
+  "author": "Dan Crews <crewsd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dncrews/ng-superagent/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.1"
+  },
+  "devDependencies": {
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.3",
+    "karma-requirejs": "~0.1.0",
+    "karma-coffee-preprocessor": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma": "~0.10.2",
+    "karma-mocha": "~0.1.0",
+    "mocha": "~1.13.0",
+    "karma-growl-reporter": "~0.1.1"
+  }
+}
