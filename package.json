@@ -4,7 +4,7 @@
   "description": "Anguar $superagent",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "foreman run sh ./bin/tests",
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
     "url": "https://github.com/dncrews/ng-superagent/issues"
   },
   "dependencies": {
-    "express": "~3.4.1"
+    "express": "~3.4.1",
+    "debug": "~0.7.2"
   },
   "devDependencies": {
     "karma-script-launcher": "~0.1.0",

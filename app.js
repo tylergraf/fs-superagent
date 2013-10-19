@@ -7,10 +7,11 @@ var app = express();
 
 app.use(express.bodyParser());
 app.use(express.static(__dirname + '/assets'));
+app.use(express.static(__dirname + '/build'));
 
-app.get('/sample', function(req, res, next) {
+app.get('/sample/:type', function(req, res, next) {
   console.log(req.headers);
-  res.send('I DID IT I\'M SO AWESOME');
+  res.send('I DID IT I\'M SO AWESOME! (' + req.params.type + ')');
 });
 
 app.listen(process.env.PORT || 5000, function() {

@@ -6,24 +6,29 @@ module.exports = function(config) {
     // base path, that will be used to resolve files and exclude
     basePath: '../..',
 
-    frameworks: ['mocha', 'commonjs'],
+    frameworks: [ 'ng-scenario' ],
+
+    // frameworks: ['mocha', 'commonjs'],
 
     // list of files / patterns to load in the browser
     files: [
-      'assets/js/*.js',
-      'client/*.js',
-      'test/client/*.js'
+      'assets/vendor/superagent.js',
+      'assets/vendor/superagent-defaults.js',
+      'assets/vendor/angular-1.0.8.min.js',
+      'assets/js/app.js',
+      'test/client/superagent.js'
     ],
 
     // list of files to exclude
     exclude: [
-      'client/main.js'
+      // 'client/main.js'
     ],
 
     preprocessors: {
-      'assets/js/*.js' : 'coverage',
-      'client/*.js': ['commonjs'],
-      'test/client/*.js': ['commonjs']
+      'assets/js/*.js' : 'coverage'
+      // 'assets/js/*.js' : 'coverage',
+      // 'client/*.js': ['commonjs'],
+      // 'test/client/superagent.js': ['commonjs']
     },
 
     // use dots reporter, as travis terminal does not support escaping sequences

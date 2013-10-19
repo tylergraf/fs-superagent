@@ -4,18 +4,22 @@
   <link rel="stylesheet" href="vendor/bootstrap-3.0.0/css/bootstrap-theme.min.css">
 </head>
 <body>
-  <div class="container" data-ng-controller="SuperagentController">
-    <span data-ng-superagent='{
-      "x-request-id" : "654654654",
-      "locale" : "es",
-      "fsSessionId" : "987456321"
-    }'></span>
-    <button class="btn btn-success" data-ng-click="doIt()">Click ME</button>
+  <div class="container" data-ng-controller="ngSuperagentController" data-superagent-init>
+    <button class="btn btn-success" data-ng-click="fireWithoutInit()">Go ngManual</button>
+    <button class="btn btn-success" data-ng-click="fireWithInit()">Go ngDirective</button>
     <h1 data-ng-bind="text"></h1>
   </div>
+  <div class="container" data-ng-controller="fsSuperagentController">
+    <button class="btn btn-success" data-ng-click="fireWithFS()">Go FS</button>
+  </div>
+
+  <script src="vendor/angular-1.0.8.min.js"></script>
+  <script src="build.js"></script>
+  <script src="js/my_app.js"></script>
+  <!--
   <script src="vendor/superagent.js"></script>
   <script src="vendor/superagent-defaults.js"></script>
-  <script src="vendor/angular-1.0.8.min.js"></script>
   <script src="js/app.js"></script>
+  -->
 </body>
 </html>

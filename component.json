@@ -1,0 +1,23 @@
+{
+  "name": "fs-superagent",
+  "repo": "fs-webdev/fs-superagent",
+  "description": "FamilySearch Superagent",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "visionmedia/debug": "*",
+    "component/url": "*",
+    "CamShaft/superagent-defaults": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "lib/client/index.js",
+  "scripts": [
+    "lib/client/helpers/readCookies.js",
+    "lib/client/helpers/readHeaders.js",
+    "lib/fs-superagent.js",
+    "lib/client/ng-fs-superagent.js",
+    "lib/client/obj-fs-superagent.js",
+    "lib/client/index.js"
+  ]
+}
