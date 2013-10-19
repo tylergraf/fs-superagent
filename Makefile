@@ -1,6 +1,6 @@
 
 build: components index.js
-	@component build --dev
+	@component build --dev -s fsSuperagent
 
 components: component.json
 	@component install --dev

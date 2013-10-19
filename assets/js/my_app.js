@@ -1,5 +1,3 @@
-
-console.error('here', window.angular);
 (function(ng, fsSuperagent) {
   "use strict";
 
