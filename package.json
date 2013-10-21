@@ -4,7 +4,7 @@
   "description": "FamilySearch-specific Superagent Defaults",
   "main": "app.js",
   "scripts": {
-    "test": "foreman run sh ./bin/tests",
+    "test": "foreman run sh ./bin/tests"
   },
   "repository": {
     "type": "git",
