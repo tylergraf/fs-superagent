@@ -1,4 +1,4 @@
--superagent
+FSSuperagent
 ===========
 
-Attempting to write a $superagent Angular $provider.
+FamilySearch-specific Superagent Defaults

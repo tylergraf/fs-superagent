@@ -1,19 +1,19 @@
 {
-  "name": "ng-superagent",
+  "name": "fs-superagent",
   "version": "0.0.0",
-  "description": "Anguar $superagent",
+  "description": "FamilySearch-specific Superagent Defaults",
   "main": "app.js",
   "scripts": {
     "test": "foreman run sh ./bin/tests",
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dncrews/ng-superagent.git"
+    "url": "https://github.com/fs-webdev/fs-superagent.git"
   },
   "author": "Dan Crews <crewsd@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dncrews/ng-superagent/issues"
+    "url": "https://github.com/fs-webdev/fs-superagent/issues"
   },
   "dependencies": {
     "express": "~3.4.1",
