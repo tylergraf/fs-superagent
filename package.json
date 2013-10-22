@@ -2,7 +2,7 @@
   "name": "fs-superagent",
   "version": "0.0.0",
   "description": "FamilySearch-specific Superagent Defaults",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "foreman run sh ./bin/tests"
   },
