@@ -1,6 +1,6 @@
 
 build: components index.js
-	@component build --dev -s fsSuperagent
+	@component build --dev -s fsSuperagent -o assets/js -n fs-superagent
 
 components: component.json
 	@component install --dev

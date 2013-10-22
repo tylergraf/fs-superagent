@@ -7,7 +7,7 @@ var app = express.createServer();
 
 app.use(express.bodyParser());
 app.use(express.static(__dirname + '/assets'));
-app.use(express.static(__dirname + '/build'));
+app.use(express.static(__dirname + '/sample'));
 
 app.get('/sample/:type', function(req, res, next) {
   console.log(req.headers);
