@@ -1,4 +1,7 @@
-#/usr/bin/env bash
+#/usr/bin/env sh
 
-# NODE_ENV=test `pwd`/node_modules/.bin/mocha --require blanket --reporter json-cov test/server/
-NODE_ENV=test `pwd`/node_modules/.bin/mocha --reporter spec test/server/
+# set env to test. Run mocha tests at test/server. This file will be invoked by npm test locally.
+NODE_ENV=test `pwd`/node_modules/.bin/mocha --reporter spec --globals page,assets,showingChat test/server/
+# NODE_ENV=test `pwd`/node_modules/.bin/mocha --reporter spec --globals page,assets,showingChat test/server/fs-superagent
+
+
