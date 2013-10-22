@@ -4,6 +4,7 @@
   "description": "FamilySearch-specific Superagent Defaults",
   "main": "index.js",
   "scripts": {
+    "postinstall": "make",
     "test": "foreman run sh ./bin/tests"
   },
   "repository": {
