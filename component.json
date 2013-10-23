@@ -2,7 +2,7 @@
   "name": "fs-superagent",
   "repo": "fs-webdev/fs-superagent",
   "description": "FamilySearch Superagent",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [],
   "dependencies": {
     "visionmedia/debug": "*",
