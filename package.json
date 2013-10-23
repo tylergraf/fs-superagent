@@ -20,7 +20,8 @@
     "express": "~2.5.11",
     "debug": "~0.7.2",
     "superagent": "~0.15.7",
-    "superagent-defaults": "~0.1.4"
+    "superagent-defaults": "~0.1.4",
+    "component": "git+https://github.com/fs-webdev/component.git"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
