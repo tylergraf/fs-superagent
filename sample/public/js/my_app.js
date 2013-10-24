@@ -3,18 +3,17 @@
 
   var module = ng.module('ngSuperagent', []);
 
-  fsSuperagent.angular(module);
+  fsSuperagent(module);
 
   module.controller('fsSuperagentController', [
     "$scope",
 
     function($scope) {
       $scope.fireWithFS = function() {
-        var FS = {
-          superagent : fsSuperagent.obj()
-        };
         FS.superagent
           .get('/sample/fs')
+          .set({'something': 'nothing'})
+          .set({'accept': 'application/json,text/html'})
           .end(function(err, response) {
             if (err) return console.error('err', err);
             alert(response.text);
