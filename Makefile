@@ -1,6 +1,7 @@
 
 build: components index.js
-	@./node_modules/.bin/component build -s fsSuperagent -o assets/js -n fs-superagent -g
+	@./node_modules/.bin/component build -s fsSuperagent -o assets/js -n fs-superagent
+	@./node_modules/.bin/component-global -f ./assets/js/fs-superagent.js
 
 components: component.json
 	@component install --dev

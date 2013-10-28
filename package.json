@@ -21,7 +21,8 @@
     "debug": "~0.7.2",
     "superagent": "~0.15.7",
     "superagent-defaults": "~0.1.4",
-    "component": "git+https://github.com/fs-webdev/component.git"
+    "component": "~0.18.0",
+    "component-global": "~1.0.0"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
